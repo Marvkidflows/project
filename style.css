@@ -1,0 +1,127 @@
+body{
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    background-color:rgb(238, 244, 247);
+    padding: 0%;    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-box{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:  40px;
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.auth-button button{
+ margin-left: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.login{
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  border:solid #3393f2;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  padding: 9.5px 14.5px;
+  line-height: 1.4;
+  
+}
+.login:hover{
+  color: #3393f2;
+}
+.sign-up{
+  padding: 9.6px 13px;
+  background-color: #3393f2;
+  border-color:#3393f2;
+  border: solid #3393f2;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+   text-decoration: none;
+   margin: auto;
+}
+.sign-up:hover{
+  color: #3393f2;
+  background-color: transparent;
+  border: 3px solid #3393f2;
+ 
+}
+  .main-title{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+h2{
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 550;
+  color: rgb(78, 66, 66);
+  text-transform: uppercase;
+}
+h2::after{
+  content: "";
+  width: 10px;
+  height: 20px;
+  background-color: #e3d500;
+}
+h1 {
+  margin-top: -2px;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  font-size: 65px
+}
+p {
+  font-size: 18px;
+  margin-top: -30px;
+}
+
+.click{
+  margin-top: 70px;
+}
+.start{
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 18px;
+  background: #fbe30c;
+  border: 3px solid #e3d500;
+  
+}
+.start:hover{
+  color: white;
+  background-color: #00a2ff;
+  border: 3px solid #7990a1;
+}
+.trial-note{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
