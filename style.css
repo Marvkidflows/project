@@ -134,3 +134,42 @@ h4{
   font-weight: 200;
   cursor: text;
 }
+
+.drop-down-content{
+  padding: 10px 20px;
+  width: 300px;
+  color: black;
+  position: absolute;
+  top: 50px;
+  left: -15px;
+  list-style: none;
+  border-radius: 10px;
+  display: none;
+  box-shadow: 0px 8px 30px rgb(0, 0, 0.5);
+  z-index: 10;
+
+}
+.drop-down-content a{
+text-decoration: none;
+color: inherit;
+
+}
+.product{
+  cursor: pointer;
+
+}
+.drop-down{
+  position: relative;
+}
+.drop-down:hover .drop-down-content{
+display: block;
+}
+
+
+
+
+
+@media(max-width: 600px){
+
+}
+  
